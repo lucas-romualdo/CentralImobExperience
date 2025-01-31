@@ -189,15 +189,78 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 120px;
-    color: #292929;
-    background: #202020;
+    justify-content: center;
+    width: 100%;
+    height: 1130px;
+    background: #292929;
     color: #fff;
+    gap: 80px;
+}
+
+.ingressos h3{
+    padding: 20px 40px 0 40px;
+}
+
+.ingressos p{
+    padding: 40px 80px 20px 80px;
 }
 
 .container-card-ingresso{
-    display: flex;
+    display:flex;
     justify-content: center;
+    align-items: start;
+    gap:40px;
+    padding: 0 40px 0 40px;
+}
+
+.card-ingresso{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:40px;
+    background: #eee;
+    border-radius: 12px;
+    color: #4A72B2;
+}
+
+.card-ingresso span{
+    background: linear-gradient(180deg, #FF6100 0%, #993A00 100%) ;
+    border-radius: 100px;
+    padding: 7px 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-ingresso-segundo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:40px;
+    background: linear-gradient(180deg, #FF6100 0%, #993A00 100%);
+    border-radius: 12px;
+    color: #fff;
+}
+
+.card-ingresso-segundo span {
+    background: #4A72B2 ;
+    border-radius: 100px;
+    padding: 7px 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.patrocinadores{
+    display:flex;
+    flex-direction: column;
     align-items: center;
-    gap: 40px;
+    justify-content: center; 
+}
+
+.patrocinador-apoio{
+
+}
+
+.patrocinador-apoio img{
+    width: 200px;
+    height: 200px;
 }
